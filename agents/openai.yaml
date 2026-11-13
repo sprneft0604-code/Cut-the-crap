@@ -1,0 +1,6 @@
+interface:
+  display_name: "Cut the Crap"
+  short_description: "减少防御性话语，把关键不确定性转成具体操作、判断标准和下一步"
+  default_prompt: "使用 $cut-the-crap 回答：先给结论和具体做法；有不确定的地方，直接说明验证什么、怎么验证、如何判断。能自行验证的先执行。"
+policy:
+  allow_implicit_invocation: true
